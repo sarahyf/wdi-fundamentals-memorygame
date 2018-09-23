@@ -17,6 +17,7 @@ h1 {
 	letter-spacing: 1px;
 	font-weight: 400;
 	font-size: 45px;
+	margin: 0;
 }
 
 nav {
@@ -38,6 +39,10 @@ a {
 	border-bottom: 2px solid transparent;
 }
 
+a:hover {
+	border-color: #FFFFFF;
+}
+
 main {
 	width: 850px;
 	margin: 35px auto;
@@ -55,6 +60,7 @@ p {
 	font-family: "Droid Serif", serif;
 	line-height: 26px;
 	font-size: 18px;
+	text-transform: none;
 }
 
 img {
@@ -65,23 +71,13 @@ img {
 
 footer {
 	text-transform: uppercase;
-	padding-left: 20px;
 	padding-right: 20px;
+	padding-left: 20px;
 	background-color: #0D2C40;
 	color: #FFFFFF;
 	font-size: 14px;
 	letter-spacing: 0.08em;
 	font-weight: 500;
-}
-
-.copyright {
-	font-family: "Raleway", sans-serif;
-	float: left;
-}
-
-.message {
-	font-family: "Raleway", sans-serif;
-	float: right;
 }
 
 .clearfix:after {
@@ -93,11 +89,20 @@ footer {
 	font-size: 0;
 }
 
+.copyright {
+	font-family: "Raleway", sans-serif;
+	float: left;
+	text-transform: uppercase;
+}
+
+.message {
+	font-family: "Raleway", sans-serif;
+	float: right;
+	text-transform: uppercase;
+}
+
 .name {
 	color: #F15B31;
 	font-weight: 700;
-}
-
-a:hover {
-	border-color: #FFFFFF;
+	text-transform: uppercase;
 }
